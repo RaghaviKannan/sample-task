@@ -1,0 +1,41 @@
+.industry-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.industry-info {
+  display: flex;
+  align-items: center;
+}
+
+.expander,
+.checkbox input {
+  cursor: pointer;
+  background-color: #73b892;
+  padding: 1px 4px;
+  margin: 0;
+  color: white;
+  border-radius: 4px;
+}
+
+input:checked {
+  background-color: #73b892;
+}
+
+.sub-industries {
+  margin-left: 20px;
+}
+
+.horizontal-connector {
+  width: 8px;
+  border-top: 1px solid gray;
+  margin: 0;
+}
+
+.expander,
+.checkbox {
+  display: flex;
+  align-items: center;
+}
